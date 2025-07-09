@@ -17,14 +17,11 @@ This project demonstrates how to build a lightweight **Security Operations Cente
 ## System Architecture
 
 ```
++------------------+       +----------------------+       +----------------------+
+|  Kali Linux VM   | ----> | Suricata on Ubuntu   | ----> |   Splunk Dashboard   |
+|  (Attack Source) |       | (Network Detection)  |       |  (Log Visualization) |
++------------------+       +----------------------+       +----------------------+
 
-\[Kali Linux VM] ➜ Simulates attacks (Nmap)
-│
-▼
-\[Suricata on Ubuntu] ➜ Detects and logs alerts to eve.json
-│
-▼
-\[Splunk on Ubuntu] ➜ Ingests logs and displays dashboards
 
 ````
 
