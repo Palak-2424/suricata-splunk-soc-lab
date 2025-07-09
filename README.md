@@ -22,9 +22,7 @@ This project demonstrates how to build a lightweight **Security Operations Cente
 |  (Attack Source) |       | (Network Detection)  |       |  (Log Visualization) |
 +------------------+       +----------------------+       +----------------------+
 
-
 ````
-
 ---
 
 ## Suricata Installation (Official Method)
