@@ -167,20 +167,6 @@ event_type=alert
 
 ---
 
-## 📁 Project Structure
-
-```
-suricata-splunk-soc-lab/
-├── README.md
-├── suricata/
-│   └── rules/
-│       └── nmap-test.rules
-├── logs/
-│   └── eve.json (optional copy)
-```
-
----
-
 ## 👩‍💻 Author
 
 **Palak G.**
@@ -190,21 +176,8 @@ Built as a personal learning project to simulate SOC workflows.
 
 ---
 
-## 📝 License
-
-This project is licensed under the **MIT License**. Free to use, modify, and share.
-
----
-
 ## 📚 References
 
 * [Suricata Official Docs](https://docs.suricata.io/en/latest/)
 * [Splunk Docs](https://docs.splunk.com/)
 * [Emerging Threats Rules](https://rules.emergingthreats.net/)
-
-```
-
----
-
-✅ This is ready to paste into a GitHub repo as `README.md`. Let me know if you'd like a `gitignore` or help pushing to GitHub.
-```
