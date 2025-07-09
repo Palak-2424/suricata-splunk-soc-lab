@@ -39,7 +39,7 @@ sudo apt install -y suricata
 
 ---
 
-## 🚀 Post-Installation Steps
+## Post-Installation Steps
 
 ### Update Rules
 
@@ -113,7 +113,7 @@ nmap -sS 10.0.0.181
 
 ---
 
-## 📊 Splunk Integration
+## Splunk Integration
 
 ### Start Splunk
 
@@ -132,9 +132,9 @@ Access Splunk at: [http://localhost:8000](http://localhost:8000)
 
 ---
 
-## 📈 Splunk Dashboard Panels
+## Splunk Dashboard Panels
 
-### 🔍 Panel 1: Recent Alerts Table
+### Search_1: Recent Alerts Table
 
 ```spl
 index=* source="/var/log/suricata/eve.json"
@@ -143,7 +143,7 @@ event_type=alert
 | sort -_time
 ```
 
-### 📊 Panel 2: Top 10 Alert Signatures (Bar Chart)
+### Search_2: Top 10 Alert Signatures (Bar Chart)
 
 ```spl
 index=* source="/var/log/suricata/eve.json"
@@ -153,7 +153,7 @@ event_type=alert
 
 ---
 
-## 🔐 Observations
+##  Observations
 
 * Suricata successfully detected known and custom attacks
 * eve.json format enabled structured alert data ingestion
@@ -161,7 +161,7 @@ event_type=alert
 * SOC-style workflow simulated from detection to visualization
 
 ---
-## 📚 References
+##  References
 
 * [Suricata Official Docs](https://docs.suricata.io/en/latest/)
 * [Splunk Docs](https://docs.splunk.com/)
@@ -171,7 +171,7 @@ Here are clean, GitHub-optimized Markdown headers for the content you shared —
 
 ---
 
-## 🚀 Next Steps & Future Enhancements
+##  Next Steps & Future Enhancements
 
 * Integrate **ELK Stack** for advanced log correlation and analytics
 * Automate simulated attacks using **Python scripts or shell**
@@ -180,7 +180,7 @@ Here are clean, GitHub-optimized Markdown headers for the content you shared —
   
 ---
 
-## 🤝 How to Contribute
+## How to Contribute
 
 1. Fork the repository
 2. Create a new feature branch (`git checkout -b feature/your-feature`)
@@ -204,8 +204,8 @@ This project demonstrates how to build a fully functional **home Security Operat
 
 ---
 
-## 📬 Connect with Me
+## Connect with Me
 
-* 🌐 [LinkedIn](https://www.linkedin.com/in/palakgupta2405)
-* 💻 [GitHub](https://github.com/Palak-2424)
+*  [LinkedIn](https://www.linkedin.com/in/palakgupta2405)
+*  [GitHub](https://github.com/Palak-2424)
 
