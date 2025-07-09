@@ -161,18 +161,51 @@ event_type=alert
 * SOC-style workflow simulated from detection to visualization
 
 ---
-
-## 👩‍💻 Author
-
-**Palak G.**
-Cybersecurity Student & SOC Enthusiast
-Linux | Splunk | IDS/IPS | Python
-Built as a personal learning project to simulate SOC workflows.
-
----
-
 ## 📚 References
 
 * [Suricata Official Docs](https://docs.suricata.io/en/latest/)
 * [Splunk Docs](https://docs.splunk.com/)
 * [Emerging Threats Rules](https://rules.emergingthreats.net/)
+
+Here are clean, GitHub-optimized Markdown headers for the content you shared — you can **copy-paste directly into your `README.md`**:
+
+---
+
+## 🚀 Next Steps & Future Enhancements
+
+* Integrate **ELK Stack** for advanced log correlation and analytics
+* Automate simulated attacks using **Python scripts or shell**
+* Expand detection capabilities by adding **Wazuh SIEM**
+* Introduce **MITRE ATT\&CK mappings** to better classify alerts
+  
+---
+
+## 🤝 How to Contribute
+
+1. Fork the repository
+2. Create a new feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a **pull request** for review
+
+---
+
+## Conclusion
+
+This project demonstrates how to build a fully functional **home Security Operations Center (SOC) lab** using **UTM** and open-source tools on **macOS**. It simulates real-world attacks from Kali Linux and detects them with Suricata, then visualizes alerts using Splunk dashboards.
+
+## Learn and practice:
+
+* Threat detection and alerting
+* Network intrusion monitoring with Suricata
+* Log analysis and visualization with Splunk
+* Endpoint and network telemetry correlation
+* Hands-on SOC workflow design
+
+---
+
+## 📬 Connect with Me
+
+* 🌐 [LinkedIn](https://www.linkedin.com/in/palakgupta2405)
+* 💻 [GitHub](https://github.com/Palak-2424)
+
